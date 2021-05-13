@@ -26,7 +26,8 @@ def make_guess(difficulty):
     guess = 5
   else:
     print("Invalid input")
-
+    guess = 0
+    
   while(guess != 0):
     print(f"You have {guess} attempts remaining to guess the number.")
     guessed_number = int(input("Make a guess: "))
